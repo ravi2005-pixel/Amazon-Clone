@@ -1,0 +1,162 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="{% static 'home/css/style.css' %}">
+</head>
+<body id="top">
+
+    <header>
+        <div class="navbar-top">
+            <a href="#" class="nav-logo-link">
+                <div class="logo-text">
+                    amazon<span class="logo-domain">.in</span>
+                    <span class="logo-smile"></span>
+                </div>
+            </a>
+
+            <div class="nav-link-box nav-location">
+                <div class="location-icon">📍</div>
+                <div class="location-text">
+                    <span class="line-one">Deliver to</span>
+                    <span class="line-two">India</span>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="computers">Computers</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="books">Books</option>
+                    <option value="home">Home & Kitchen</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Search Amazon">
+                <button type="submit" class="search-button">🔍</button>
+            </div>
+
+            <div class="nav-right">
+                <div class="nav-link-box nav-language">
+                    <span>🌐</span>
+                    <span>EN ▾</span>
+                </div>
+
+                <div class="nav-link-box nav-account">
+                    <span class="line-one">Hello, sign in</span>
+                    <span class="line-two">Account & Lists ▾</span>
+                </div>
+
+                <div class="nav-link-box nav-orders">
+                    <span class="line-one">Returns</span>
+                    <span class="line-two">& Orders</span>
+                </div>
+
+                <div class="nav-link-box nav-cart">
+                    <div class="cart-icon-wrapper">
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <span class="cart-label">Cart</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar-secondary">
+            <ul class="secondary-links">
+                <li class="secondary-item menu-all">
+                    <span>☰</span>
+                    <span>All</span>
+                </li>
+                <li class="secondary-item">Today's Deals</li>
+                <li class="secondary-item">Customer Service</li>
+                <li class="secondary-item">Registry</li>
+                <li class="secondary-item">Gift Cards</li>
+                <li class="secondary-item">Sell</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="content-placeholder"></div>
+    </main>
+
+    <footer>
+        <a href="#top" id="backToTop" class="back-to-top">Back to top</a>
+
+        <div class="footer-main">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Amazon Devices</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Make Money with Us</h3>
+                    <ul>
+                        <li><a href="#">Sell products</a></li>
+                        <li><a href="#">Sell apps</a></li>
+                        <li><a href="#">Become an affiliate</a></li>
+                        <li><a href="#">Advertise your products</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Amazon Payment Products</h3>
+                    <ul>
+                        <li><a href="#">Business Card</a></li>
+                        <li><a href="#">Shop with Points</a></li>
+                        <li><a href="#">Reload Your Balance</a></li>
+                        <li><a href="#">Currency Converter</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Let Us Help You</h3>
+                    <ul>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Your Orders</a></li>
+                        <li><a href="#">Shipping Rates</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-middle">
+            <div class="footer-middle-logo">
+                <div class="logo-text">
+                    amazon
+                    <span class="logo-smile"></span>
+                </div>
+            </div>
+            <div class="footer-middle-selectors">
+                <button type="button" class="footer-button">🌐 English</button>
+                <button type="button" class="footer-button">$ USD - U.S. Dollar</button>
+                <button type="button" class="footer-button">🇺🇸 United States</button>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-links">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Consumer Health Data Privacy Disclosure</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <p class="footer-copyright">© 1996-2026, Amazon.com, Inc. or its affiliates</p>
+        </div>
+    </footer>
+
+    <script src="{% static 'home/js/script.js' %}"></script>
+</body>
+</html>
